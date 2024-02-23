@@ -1,4 +1,5 @@
 import "./App.css";
+import Student from "./components/monsterBox/monsterBox";
 
 
 const App = () => {
@@ -19,11 +20,12 @@ const App = () => {
             <h1>🍌 Hello World! 🛸</h1>;
             <section>
                 <h2>{checkAge(age)}</h2>
-                <infoBox />
-                <infoBox />
-                <infoBox />
+                <Student />
+                <Student />
+                <Student />
             </section>
-        </>)
+        </>
+    )
 }
 
 export default App;

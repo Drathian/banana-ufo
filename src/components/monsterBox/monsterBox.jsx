@@ -1,4 +1,4 @@
-import "./infoBox.css";
+import "./monsterBox.css";
 
 
 const data = [
